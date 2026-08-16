@@ -41,3 +41,37 @@ body{
     color:  rgb(15, 15, 203);
 }
 
+.fondo {
+    background-image: url(images/carta.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cartauno li {
+    width: 150px;
+    margin: 50px;
+    display: inline-flex;
+}
+
+.cartauno a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+
+.cartauno h1 {
+    color: black;
+    font-family: "Brush Script MT";
+    font-size: 500%;
+    margin: 0%;
+    padding: 20px;
+    left: 20px;
+}
+
+.cartauno p {
+    font-family: "Brush Script MT";
+    font-size: 550%;
+    margin: 30px;
+    left: 20px;
+}
